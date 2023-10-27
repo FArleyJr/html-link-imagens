@@ -44,21 +44,46 @@
         height: 50px; 
         font-family:arial;
     }
-    .produtos.pro1{
-        background-color #fff
-        border-radius: 20px ; 
-        width: 200%;
-        height: 600%;
-        margin: 30%;
-        padding: 30% ;
-       display: flex;
+    .produtos{
+        display: flex;
+  }
+  
+  .pro {
+    border-radius: 20px ; 
+    width: 200px;
+    height: 550px;
+    background-color: #fff ;
+    margin: 5%;
+    padding: 5% ;
+    flex: 1;
+    border: 1px solid black;
+  }
+
+  .maps{
+    margin: 15%;
+    padding: 15% ;
+    width: 600px;
+    height: 10px;
+    background-color: #fff ;
+    border: 1px solid black;
+    border-radius: 20px ; 
+    text-align: center ;
+    justify-content: center; /* Alinha itens horizontalmente ao centro */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+     height: 100vh; /* Altura total da janela de visualização */
+    }
+  
+   .cred{
+        color: white;
+        text-align: center ;
+        background-color: #908989;
+        margin: 0;
+        padding: 0 ;
+        float: center;
+        border: 2px solid black;
+        justify-content: flex-start; 
+
    }
-   .pro{
-    flex:1;
-    padding : 10px: 
-    border : 1 px solid black;
-   }
-   
 
     .historia  {
         background-color: #fff;
