@@ -7,26 +7,96 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="logoDaLoja.png" />
-    <h1> Jênio dos esportis</h1>
-    <h2> Outras páginas</h2>
-    <ul>
-        <li> <a href="esporte/atletismo/index.html">atletismo</a></li>
-        <li> <a href="">basquete</a></li>
-        <li> <a href="">fotebol</a></li>
-    </ul>
-    <hr> 
-    <p> . O Jênio dos esportis,ou apenas Jênio como é coonhecida, é uma marca brasileira que foi <br>
-        fundada em 1920 por dois irmãos Farley VIlela e FIllipy VIlela.</p>
-        
-        <p>Feita para criar um diferencial na performance de atletas do mais alto escalão</p>
+    <div>
+        <div class = "cabecalho">
+             <div class = "Img">
+                <img src="imgs/logoDaLoja.png" />
+            </div>
+             <div class = "titulo">
+                <h1> Jênio dos esportis</h1>
+            </div>
+        </div>
+        <div class = "botoes">
+            <!--LISTA 001---------------------------------------------------------------------------------->
+            <select id="atletas">
+                <option value="ISSP">Nossos atletas</option>
+                <option value="https://pt.wikipedia.org/wiki/Neymar"> Neymar </option>
+                <option value="https://pt.wikipedia.org/wiki/Stephen_Curry">Stephen Curry</option>
+                <option value="https://pt.wikipedia.org/wiki/Usain_Bolt">Usain Bolt</option>
+            </select>
+           
 
-        <h3> HÁ MAIS DE 100 ANOS FORNECENDO PRODUTOS DE ALTÍSSIMA QUALIDADE</h3>
-        <h4> Os produtos da mais alta qualidade nas áreas:</h4> 
-        <h4>Futebol, Basquete e Atletismo</h4>
-        <hr>
+            <!--LISTA 002-----------------------------------------------------------------------------------> 
 
-        <h3> PRODUTOS MAIS VISTOS!</h3>
+               <select id="produtos">
+                <option value="maisVistos.html">Mais vistos</option>
+               </select>
+           
+            <!--LISTA 003-----------------------------------------------------------------------------------> 
+
+           
+            <select  id="esportes">
+                <option value="">Esportes</option>
+                <option value="esporte/atletismo/index.html">Atletismo</option>
+                <option value="esporte/basquete/index.html">Basquete</option>
+                <option value="esporte/fotebol/index.html">Fotebol</option>
+            </select>
+
+            <!--JAVASCRIPT LISTA01. 02, 03-----------------------------------------------------------------------------------> 
+
+            <script type="text/javascript">
+                document.getElementById('esportes').onchange = function() {
+                    window.location.href = this.value;
+                }
+                document.getElementById('produtos').onchange = function() {
+                    window.location.href = this.value;
+                }
+                document.getElementById('atletas').onchange = function() {
+                    window.location.href = this.value;
+                }
+                
+                
+            </script>
+            <!------------------------------------------------------------------------------------->
+        </div>
+        <hr> 
+        <div class ="historia">
+            <p> . O Jênio dos esportis,ou apenas Jênio como é coonhecida, é uma marca brasileira que foi <br>
+                fundada em 1920 por dois irmãos Farley VIlela e FIllipy VIlela.</p>
+                
+                <p>Feita para criar um diferencial na performance de atletas do mais alto escalão</p>
+
+                <h3> HÁ MAIS DE 100 ANOS FORNECENDO PRODUTOS DE ALTÍSSIMA QUALIDADE</h3>
+                <h4> Os produtos da mais alta qualidade nas áreas:</h4> 
+                <h4>Futebol, Basquete e Atletismo</h4>
+                <hr>
+        </div>
+    </div>     
+        <h3 text-aling: center> PRODUTOS MAIS VISTOS!</h3>
+        <div>
+            <div class = "produtos">
+                <div class = "pro1">
+                    <img src ="imgs/CamisaNeymar.jpeg"/>
+
+                    <h3> Camisa do Neymar no Al-hilal</h3>
+                    <p>Camisa AL HILAL SFC Home 23/24<br>
+                    NEYMAR JR -10<br> Torcedor Puma Masculino- Azul
+                    </p>
+                    <h3><strong> 199,99$</strong> </h3>
+                </div>
+                <div class = "pro2">
+                    <img src ="imgs/Sapatilha.jpeg"  width="" height="600"/>
+
+                    <h3> Nike Zoom Ja Fly 3 - velocidade - Brasil</h3>
+                    <p>Sapatilha profissional para atletas <br>
+                       de alta performance no atletismo
+                    </p>
+                    <h3><strong> 750,99$</strong> </h3>
+
+                </div>    
+            </div>
+            
+        </div>
         <p> colocar fotos de camisa da loja, Sapatilha de atletismo e de bolas</p>
 
         
