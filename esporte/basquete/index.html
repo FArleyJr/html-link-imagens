@@ -3,18 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Nossa LOuja</title>
+    <link rel="stylesheet" type="text/css" href="Atle.css">
 </head>
 <body>
-    <img src="logoDaLoja.png" />
-    <h1> Jênio dos esportis</h1>
-    <h2>Basquete </h2>
-    <h2> Outras páginas</h2>
-    <ul>
-        <li> <a href="index.html">atletismo</a></li>
-        <li> <a href="index.html">fotebol</a></li>
-    </ul>
-</body>
-</html>
+    <div>
+        <div class = "cabecalho">
+             <div class = "Img">
+                <a href="../../index.html">
+                    <img src="../../imgs/logoDaLoja.png">
+                  </a>
+            </div>
+             <div class = "titulo">
+                <h1> Jênio dos esportis</h1>
+            </div>
+        </div>
+        <div class = "botoes">
+            <!--LISTA 001---------------------------------------------------------------------------------->
+            <select id="atletas">
+                <option value="ISSP">Nossos atletas</option>
+                <option value="https://pt.wikipedia.org/wiki/Neymar"> Neymar </option>
+                <option value="https://pt.wikipedia.org/wiki/Stephen_Curry">Stephen Curry</option>
+                <option value="https://pt.wikipedia.org/wiki/Usain_Bolt">Usain Bolt</option>
+            </select>
+           
+
+            <!--LISTA 002-----------------------------------------------------------------------------------> 
+
+               <select id="produtos">
+                <option value="maisVistos.html">Mais vistos</option>
+               </select>
+           
+            <!--LISTA 003-----------------------------------------------------------------------------------> 
+
+           
+            <select  id="esportes">
+                <option value="">Esportes</option>
+                <option value="esporte/atletismo/index.html">Atletismo</option>
+                <option value="esporte/basquete/index.html">Basquete</option>
+                <option value="esporte/fotebol/index.html">Fotebol</option>
+            </select>
+
+            <!--JAVASCRIPT LISTA01. 02, 03-----------------------------------------------------------------------------------> 
+
+            <script type="text/javascript">
+                document.getElementById('esportes').onchange = function() {
+                    window.location.href = this.value;
+                }
+                document.getElementById('produtos').onchange = function() {
+                    window.location.href = this.value;
+                }
+                document.getElementById('atletas').onchange = function() {
+                    window.location.href = this.value;
+                }
+                
+                
+            </script>
+            <!------------------------------------------------------------------------------------->
+        </div>
+        <hr> 
+        <div class ="historia">
+            <p>
+                Atletismo é um conjunto de esportes constituído por varias modalidades: corrida, marcha, <br>
+                lançamentos e saltos. De modo geral, o atletismo é praticado em<br> 
+                estádios, com exceção de algumas corridas de longa distância, praticadas <br>
+                em vias públicas ou no campo, como a maratona</p>
+
+                <a href="https://pt.wikipedia.org/wiki/Atletismo">Clique aqui para saber mais sobre o atletismo</a>
+        </div>
+        <div class = "atleta">
+          
+            <img src ="../../imgs/UsainBolt(alterar).png" >
+            <h3 > NOSSO CRAQUE DESTE ESPORTE</h3>
+        </div>
+        <hr>
+        <h3     text-align: center ;> PRODUTOS MAIS VISTOS!</h3>
+        <div>
+            <div class = "produtos">
+                <div class = "pro">
+                    <img src ="../../imgs/camisaUsain.jpeg" width="200px", padding=" 150px"/>
+
+                    <h3> Camiseta Usain Bolt Camisa Corrida Atleta Lenda</h3>
+                    <p>Camisa poliester, ótima para corrida
+                    </p>
+                    <h3><strong> 69,99$</strong> </h3>
+                </div>
+                
+                <div class = "pro">
+                    <img src ="../../imgs/Sapatilha.jpeg"  width="250" height="300"/>
+
+                    <h3> Nike Zoom Ja Fly 3 - velocidade - Brasil</h3>
+                    <p>Sapatilha profissional para atletas <br>
+                       de alta performance no atletismo
+                    </p>
+                    <h3><strong> 750,99$</strong> </h3>
+
+                </div>   
+                <div class = "pro">
+                    <img src ="../../imgs/Sapatilha02.jpeg"  width="250" height="300"/>
+
+                    <h3>Sapatilha de atletismo para velocidade premium Pista e Campo</h3>
+                    <p>Sapatilha de atletismo para velocidade premium Pista e Campo. Modelo...
+                    </p>
+                    <h3><strong> 269,99$</strong> </h3>
+                
+
+                </div>    
+            </div>
+            <div class = "cred">
+                <lu><h3>Contatos</h3></lu>
+                <lu><br></lu>
+                <li>email:Jênialmente232@gmail.com</li>
+                <lu><br></lu>
+                <li>Numero:(44)4002-8922</li>           
+                <lu><br></lu>
+                <li>Facabook: Somente Jênios</li>
+                <lu><br></lu>
+                <li>Instagram:@JENIALMENTE_ofical</li>
+                <lu><br></lu>
+                <li>WHatsapp: (11) 95489-4452</li> 
+                <lu><br></lu>
+                <li>telegram: (11) 94524-2539 </li>
+                <lu><br></lu>
+            </div>
+            
+     
