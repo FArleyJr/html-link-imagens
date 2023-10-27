@@ -45,21 +45,20 @@
         font-family:arial;
     }
     .produtos.pro1{
-        background-color: #fff;
-        margin: 40px ;
-        padding: 40px ;
-        border: 2px solid #cccc;
+        background-color #fff
         border-radius: 20px ; 
-        width: 200px; 
-        height: 600px;
-        display: flex;
-        justify-content: space-between;
+        width: 200%;
+        height: 600%;
+        margin: 30%;
+        padding: 30% ;
+       display: flex;
    }
-   .produtos.pro1, .produtos.pro2{
-    width: 50%;
-    padding: 10px;
-    box-sizing: border-box;
+   .pro{
+    flex:1;
+    padding : 10px: 
+    border : 1 px solid black;
    }
+   
 
     .historia  {
         background-color: #fff;
