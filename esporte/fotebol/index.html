@@ -3,18 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Nossa LOuja</title>
+    <link rel="stylesheet" type="text/css" href="Atle.css">
 </head>
 <body>
-    <img src="logoDaLoja.png" />
-    <h1> Jênio dos esportis</h1>
-    <h2>Fotebol</h2>
-    <h2> Outras páginas</h2>
-    <ul>
-        <li> <a href="index.html">atletismo</a></li>
-        <li> <a href="index.html">basquete</a></li>
-    </ul>
-</body>
-</html>
+    <div>
+        <div class = "cabecalho">
+             <div class = "Img">
+                <a href="../../index.html">
+                    <img src="../../imgs/logoDaLoja.png">
+                  </a>
+            </div>
+             <div class = "titulo">
+                <h1> Jênio dos esportis</h1>
+            </div>
+        </div>
+        <div class = "botoes">
+            <!--LISTA 001---------------------------------------------------------------------------------->
+            <select id="atletas">
+                <option value="ISSP">Nossos atletas</option>
+                <option value="https://pt.wikipedia.org/wiki/Neymar"> Neymar </option>
+                <option value="https://pt.wikipedia.org/wiki/Stephen_Curry">Stephen Curry</option>
+                <option value="https://pt.wikipedia.org/wiki/Usain_Bolt">Usain Bolt</option>
+            </select>
+           
+
+            <!--LISTA 002-----------------------------------------------------------------------------------> 
+
+               <select id="produtos">
+                <option value="maisVistos.html">Mais vistos</option>
+               </select>
+           
+            <!--LISTA 003-----------------------------------------------------------------------------------> 
+
+           
+            <select  id="esportes">
+                <option value="">Esportes</option>
+                <option value="esporte/atletismo/index.html">Atletismo</option>
+                <option value="esporte/basquete/index.html">Basquete</option>
+                <option value="esporte/fotebol/index.html">Fotebol</option>
+            </select>
+
+            <!--JAVASCRIPT LISTA01. 02, 03-----------------------------------------------------------------------------------> 
+
+            <script type="text/javascript">
+                document.getElementById('esportes').onchange = function() {
+                    window.location.href = this.value;
+                }
+                document.getElementById('produtos').onchange = function() {
+                    window.location.href = this.value;
+                }
+                document.getElementById('atletas').onchange = function() {
+                    window.location.href = this.value;
+                }
+                
+                
+            </script>
+            <!------------------------------------------------------------------------------------->
+        </div>
+        <hr> 
+        
+        <ul>Outros links</ul>
+
+        <li><a href = "../../index.html">Menu</a><li>
+        <li><a href = "../basquete/index.html">Basquete</a></li>
+        <li><a href = "../atletismo/index.html">Atletismo</a></li>
+        
+
+        <div class ="historia">
+            <p>
+                O jogo moderno foi criado na Inglaterra com a formação de The Football Association, cujas<br> 
+                regras de 1863 são a base do desporto na atualidade. O órgão regente do futebol é a Federação <br>
+                Internacional de Futebol (em francês: Fédération Internationale de Football Association), mais<br>
+                 conhecida pelo acrônimo FIFA. A principal competição internacional de futebol é a Copa do Mundo <br>
+                 FIFA, realizada a cada quatro anos. Este evento é o mais famoso e com maior quantidade de espectadores<br>
+                  do mundo, o dobro da audiência dos Jogos Olímpicos.
+
+                <a href="https://pt.wikipedia.org/wiki/Futebol">Clique aqui para saber mais sobre o futebol/a>
+        </div>
+        <div class = "atleta">
+          
+            <img src ="../../imgs/Neymar(Alterar).jpg" >
+            <h3 > NOSSO CRAQUE DESTE ESPORTE</h3>
+        </div>
+        <hr>
+        <h3     text-align: center ;> PRODUTOS MAIS VISTOS!</h3>
+        <div>
+            <div class = "produtos">
+                <div class = "pro">
+                    <img src ="../../imgs/chuteira.jpeg" width="200px", padding=" 150px"/>
+
+                    <h3> Chuteira unisex branca campo</h3>
+                    <p>O design tradicional de cadarço oferece um ajuste pessoal, <br>
+                        essas chuteiras masculinas são muito leves e confortáveis
+                    </p>
+                    <h3><strong> 69,99$</strong> </h3>
+                </div>
+                
+                <div class = "pro">
+                    <img src ="../../imgs/CamisaNeymar.jpeg"  width="250" height="300"/>
+
+                    <h3> Camisa do Neymar al-hilal</h3>
+                    <p>Camiseta poliester do Neymar<br>
+                        *Todos os tamanhos disponíveis*
+                    </p>
+                    <h3><strong> 299,99$</strong> </h3>
+
+                </div>   
+                <div class = "pro">
+                    <img src ="../../imgs/BolaPenalty.jpeg"  width="250" height="300"/>
+
+                    <h3>Bola de campo Penalty oficial</h3>
+                    <p>Bola de campo profissional branca padrão masculino
+                    </p>
+                    <h3><strong> 269,99$</strong> </h3>
+                
+
+                </div>    
+            </div>
+            <div class = "cred">
+                <lu><h3>Contatos</h3></lu>
+                <lu><br></lu>
+                <li>email:Jênialmente232@gmail.com</li>
+                <lu><br></lu>
+                <li>Numero:(44)4002-8922</li>           
+                <lu><br></lu>
+                <li>Facabook: Somente Jênios</li>
+                <lu><br></lu>
+                <li>Instagram:@JENIALMENTE_ofical</li>
+                <lu><br></lu>
+                <li>WHatsapp: (11) 95489-4452</li> 
+                <lu><br></lu>
+                <li>telegram: (11) 94524-2539 </li>
+                <lu><br></lu>
+            </div>
+            
+     

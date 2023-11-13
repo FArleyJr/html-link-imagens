@@ -1,0 +1,79 @@
+body {
+    background-color: #ccc;
+    font-family:arial;
+    font-size: 20px; 
+}
+
+
+.cabecalho  {
+
+    background-color: #fff;
+    margin: 0;
+    padding: 0 ;
+    float: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start; 
+    }
+
+.cabecalho.Img{
+  
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.botoes {
+    float: center;
+    width: 100%;
+    height: 40%;
+    background-color: #ffffff;
+    border: 2px solid rgb(12, 12, 12);
+    border: 2px solid #000000cc;
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    float: center;
+    border: 2px solid black;
+    border-radius: 20px ; 
+    width: 200px; 
+    height: 50px; 
+    font-family:arial;
+}
+.produtos{
+    display: flex;
+}
+
+.pro {
+    border-radius: 20px ; 
+    width: 200px;
+    height: 550px;
+    background-color: #fff ;
+    margin: 5%;
+    padding: 5% ;
+    flex: 1;
+    border: 1px solid black;
+  }
+
+  
+
+  .cred{
+    color: white;
+    text-align: center ;
+    background-color: #908989;
+    margin: 0;
+    padding: 0 ;
+    float: center;
+    border: 2px solid black;
+    justify-content: flex-start; 
+
+}
+
+.historia  {
+    background-color: #fff;
+    margin: 40px ;
+    padding: 40px ;
+    border: 2px solid #cccc;
+    border-radius: 20px ; 
+}     

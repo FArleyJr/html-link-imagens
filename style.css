@@ -7,10 +7,17 @@
         font-family:arial;
         font-size: 20px; 
     }
+    
+    ul {
+        position: fixed;
+        bottom: 0;
+      }
    
 
     .cabecalho  {
 
+        position: 0 ;
+        float: left, right ;
         background-color: #fff;
         margin: 0;
         padding: 0 ;

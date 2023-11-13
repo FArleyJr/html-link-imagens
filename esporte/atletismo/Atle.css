@@ -72,8 +72,41 @@ select{
 
 .historia  {
     background-color: #fff;
-    margin: 40px ;
+    margin: 10px ;
     padding: 40px ;
     border: 2px solid #cccc;
     border-radius: 20px ; 
 }     
+
+
+.info{
+    display : flex;
+}
+
+.noticia{
+    flex: 1;
+   width: 210px;
+    height: 280px;
+    text-align: center ;
+    background-color: #fff;
+    margin: 5%;
+    padding: 5% ;
+    border: 2px solid #cccc;
+    border-radius: 20px ; 
+
+}
+
+.atleta {
+
+    background-image: url('../../imgs/fundoUsain.jpg' );
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 1;
+    width: 210px;
+    height: 280px;
+    text-align: center ;
+    margin: 5%;
+    padding: 5% ;
+    border: 2px solid #cccc;
+    border-radius: 20px ; 
+}
